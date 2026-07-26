@@ -1,2 +1,2 @@
-# blockchain_learning
+# Blockchain Learning
 Claude teaches Titus about Blockchain
