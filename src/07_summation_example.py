@@ -1,3 +1,4 @@
+#%%
 """
 Blockchain 101 -- Combined Example: PoS + Rewards + Merkle Trees + Certificates.
 
@@ -238,7 +239,7 @@ class Blockchain:
                 return False, f"Block #{current.index} was proposed by an already-slashed validator."
         return True, "Chain is valid."
 
-
+#%%
 # ---------------------------------------------------------------------------
 # Layer 3: The combined story -- everything above, working together
 # ---------------------------------------------------------------------------
@@ -296,3 +297,4 @@ if __name__ == "__main__":
     print("=== Final validator stakes (notice who earned from this) ===")
     for v in validators:
         print(f"  {v}")
+# %%
